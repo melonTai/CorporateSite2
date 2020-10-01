@@ -4,7 +4,7 @@
     max-width: $base-content-width;//最大幅を決める
     margin: 0 auto;//左右に自動でマージンをとる。おそらくmax-widthより画面が大きい時の対策
     padding: 0 $space-unit;//sectionborderからのpadding
-    @include mq-sp{
+    @include menu-mq-sp{
         padding: 0 $sp-space-unit*2;
         width: auto;
     }
@@ -18,7 +18,7 @@
     &:nth-child(even){//偶数個目の要素のmargin-rightをキャンセル
         margin-right: 0;
     }
-    @include mq-sp{
+    @include menu-mq-sp{
         display: block;
         flex: 1 1 100%;
         max-width: none;//maxをなくしてかつflex-basisを100%にすることで画面幅いっぱいにする。
@@ -36,7 +36,7 @@
     flex: 1 1 50%;
     margin: 0;
     padding: 0;
-    @include mq-sp{
+    @include menu-mq-sp{
         flex-basis: 100%;
     }
 }
@@ -47,7 +47,7 @@
     &:nth-chiled(4n){
         margin-right: 0;
     }
-    @include mq-sp{
+    @include menu-mq-sp{
         flex: 1 1 100%;
         max-width: none;
         margin: 0;
@@ -62,7 +62,7 @@
     &:last-child(even){//偶数個目の要素のmargin-rightをキャンセル
         margin-right: 0;
     }
-    @include mq-sp{
+    @include menu-mq-sp{
         display: block;
         flex: 1 1 100%;
         max-width: none;//maxをなくしてかつflex-basisを100%にすることで画面幅いっぱいにする。
@@ -81,7 +81,7 @@
     flex-wrap: nowrap;
     margin: 0 auto;
     max-width: $base-content-width;
-    @include mq-sp{
+    @include menu-mq-sp{
         flex-direction: column;
     }
 }
@@ -96,7 +96,7 @@
     flex: 0 0 275px;
     margin: 0 $space-unit;
     margin-left: $column-space;
-    @include mq-sp{
+    @include menu-mq-sp{
         flex: 1 1 100%;
         margin: $sp-space-unit;
     }

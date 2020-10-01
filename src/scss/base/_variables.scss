@@ -1,6 +1,9 @@
 //color Hex値
-$color-base: #fbf7f3;
-$color-main-text: #474747;
+$color-base: #FFFFFF;
+$color-main-text: #000000;
+$color-bar: #000000;
+
+
 $color-link: #878378;
 $color-white: #fff;
 $color-reverse-line: #fff;
@@ -17,7 +20,12 @@ $color-black: #252525;
 //paths
 $image-path: "../images/";//パスを変数化することで。修正が楽に
 //font
-$font-sub: "Lato";
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+$font-sub: 'Julius Sans One', sans-serif;
 //breakpoints
-$sp-max-width:640px;
-$pc-min-width:641px;
+$menu-sp-max-width:938px;
+$menu-pc-min-width:938px;
+$sp-max-width:938px;
+$pc-min-width:938px;
+$sm-width:450px;
+$md-width:938px;

@@ -1,24 +1,37 @@
 //=====base=====
 //色や文字の大きさの変数の定義
 @import "./base/variables";//resetより先に書くこと
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 //サイト全体の初期化
 @import "./base/reset";
 //mixin
 @import "./base/mixins";
 //font-awesome
-//@import "./base/lib/fa/fontawesome";
-//@import "./base/lib/fa/solid";
+@import "./base/lib/fa/fontawesome";
+@import "./base/lib/fa/solid";
 //@import "./base/lib/fa/brands";
-//@import "./base/lib/fa/brands";
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+//@import "./base/lib/fa/regulars";
+//slick
+@import "./base/lib/slick.scss";
 //=====components=====
 //-----parts-----
 //レイアウト
-@import "./components/parts/layouts";
+//@import "./components/parts/layouts";
+//bar
+@import "./components/parts/bar";
+//scroll_down
+@import "./components/parts/scroll";
+//slider_arrow
+@import "./components/parts/slick_arrow";
 
 //-----common-----
-
+//header
+@import "./components/common/header";
+//menu
+@import "./components/common/menu";
 //-----others-----
+@import "./components/carousel";
 
 //=====pages=====
 

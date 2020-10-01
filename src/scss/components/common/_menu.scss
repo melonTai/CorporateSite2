@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.Menu{
+    display: flex;
+    .isOpened &{
+        flex-wrap: wrap;
+    }
+    &__item{
+        .isOpened &{
+            @include menu-mq-sp{
+                width: 100%;
+                flex: 0 0 100%;
+                margin-bottom: 30px;
+                text-align: center;
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+    &__item--mr52{
+        margin-right: 52px;
+        &:last-child{
+            margin-right: 0px;
+        }
+        @include menu-mq-sp{
+            margin-right: 0px;
+        }
+    }
+    &__item--mr80{
+        margin-right: 80px;
+        &:last-child{
+            margin-right: 0px;
+        }
+        @include menu-mq-sp{
+            margin-right: 0px;
+        }
+    }
+
+}
