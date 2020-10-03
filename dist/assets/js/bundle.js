@@ -31,7 +31,7 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 1000,
     fade: true,
     speed: 1000,
     nextArrow: '<div class="slick-arrow slick-next"></div>',
@@ -40,11 +40,11 @@ $(document).ready(function () {
   });
   $('#js-slider-Blog').slick({
     centerMode: true,
-    centerPadding: '15%',
+    centerPadding: '20%',
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 1000,
     nextArrow: '<div class="slick-arrow slick-next"></div>',
     prevArrow: '<div class="slick-arrow slick-prev"></div>',
     appendArrows: $('.Blog .arrows')
