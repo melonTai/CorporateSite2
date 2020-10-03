@@ -1,19 +1,5 @@
 "use strict";
 
-$(document).ready(function () {
-  $('.js-single-item').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    fade: true,
-    speed: 1000,
-    nextArrow: '<button type="button" class="slick-next slick-arrow"></button>',
-    prevArrow: '<button type="button" class="slick-prev slick-arrow"></button>'
-  });
-});
-"use strict";
-
 $(function () {
   var bar = $("#header-bar");
   var nav = $("#js-header-nav");
@@ -30,4 +16,45 @@ $(function () {
       overlay.removeClass('isOpened');
     }
   });
+});
+"use strict";
+
+$(document).ready(function () {
+  $('body *').removeAttr('style');
+  $('body *').removeAttr('width');
+  $('body *').removeAttr('height');
+});
+"use strict";
+
+$(document).ready(function () {
+  $('#js-slider-Top').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    fade: true,
+    speed: 1000,
+    nextArrow: '<div class="slick-arrow slick-next"></div>',
+    prevArrow: '<div class="slick-arrow slick-prev"></div>',
+    appendArrows: $('.Top .arrows')
+  });
+  $('#js-slider-Blog').slick({
+    centerMode: true,
+    centerPadding: '15%',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    nextArrow: '<div class="slick-arrow slick-next"></div>',
+    prevArrow: '<div class="slick-arrow slick-prev"></div>',
+    appendArrows: $('.Blog .arrows')
+    /*responsive: [{
+            breakpoint: 1200,
+            settings: {
+                centerPadding: '200px',
+            }
+        },
+    ]*/
+
+  }); //$('body *').removeAttr('style');
 });

@@ -43,37 +43,41 @@
     </div>
     <main>
         <section class="Top">
-            <div class="Carousel js-single-item">
-                <div class="Carousel__item"><img class="Carousel__img" src="https://placehold.jp/1101x736.png?text=A"></div>
-                <div class="Carousel__item"><img class="Carousel__img" src="https://placehold.jp/1101x736.png?text=B"></div>
-                <div class="Carousel__item"><img class="Carousel__img" src="https://placehold.jp/1101x736.png?text=C"></div>
+            <div class="arrows arrows--right">
+            </div>
+            <div id="js-slider-Top" class="Carousel Carousel--top">
+                <div class="Carousel__item"><img class="Carousel__img" alt="A" src="https://placehold.jp/1101x736.png?text=A"></div>
+                <div class="Carousel__item"><img class="Carousel__img" alt="B" src="https://placehold.jp/1101x736.png?text=B"></div>
+                <div class="Carousel__item"><img class="Carousel__img" alt="C" src="https://placehold.jp/1101x736.png?text=C"></div>
             </div>
         </section>
         <section class="Blog">
-            <h1 class="Blog__head">BLOG</h1>
+            <div class="container">
+                <div class="Blog__head row justify-content-between">
+                    <h1 class="section-head">BLOG</h1>
+                    <a class="arrow-right" href="#"></a>
+                </div>
+            </div>
             <div class="Blog__body">
-                <ul class="Carousel">
-                    <!--
-                    <li class="Carousel__item"><img src="" alt="" class="Carousel__img"></li>
-                    <li class="Carousel__item"><img src="" alt="" class="Carousel__img"></li>
-                    <li class="Carousel__item"><img src="" alt="" class="Carousel__img"></li>
-                    <li class="Carousel__item"><img src="" alt="" class="Carousel__img"></li>
-                    <li class="Carousel__item"><img src="" alt="" class="Carousel__img"></li>
-                -->
+                <ul id="js-slider-Blog" class="Carousel Carousel--blog">
+                    <li class="Carousel__item Carousel__item--blog"><img src="https://placehold.jp/1101x736.png?text=A" alt="A" class="Carousel__img"></li>
+                    <li class="Carousel__item Carousel__item--blog"><img src="https://placehold.jp/1101x736.png?text=B" alt="B" class="Carousel__img"></li>
+                    <li class="Carousel__item Carousel__item--blog"><img src="https://placehold.jp/1101x736.png?text=C" alt="C" class="Carousel__img"></li>
+                    <li class="Carousel__item Carousel__item--blog"><img src="https://placehold.jp/1101x736.png?text=D" alt="D" class="Carousel__img"></li>
+                    <li class="Carousel__item Carousel__item--blog"><img src="https://placehold.jp/1101x736.png?text=E" alt="E" class="Carousel__img"></li>
                 </ul>
             </div>
-            <div class="Blog__foot">
-
+            <div class="arrows arrows--center">
             </div>
         </section>
-        <section class="About">
-            <h1 class="About__head">ABOUT</h1>
+        <section class="About Section">
+            <h1 class="About__head section-head">ABOUT</h1>
             <div class="About__body">
                 <img class="About__img" src="" alt="">
             </div>
         </section>
-        <section class="Project">
-            <h1 class="Project__head">PROJECT</h1>
+        <section class="Project Section">
+            <h1 class="Project__head section-head">PROJECT</h1>
             <div class="Project__body">
                 <ul class="Tile">
                     <li><a href="" class="Tile__item"><img src="" alt="a" class="Tile__img"></a></li>
@@ -84,8 +88,8 @@
             </div>
             <div class="Project__foot"></div>
         </section>
-        <section class="Plan">
-            <h1 class="Plan__head">PLAN</h1>
+        <section class="Plan Section">
+            <h1 class="Plan__head section-head">PLAN</h1>
             <div class="Plan__body">
                 <ul class="Tile">
                     <li><a href="" class="Tile__item"><img src="" alt="a" class="Tile__img"></a></li>
@@ -96,8 +100,8 @@
             </div>
             <div class="Plan__foot"></div>
         </section>
-        <section class="News">
-            <h1 class="News__head">NEWS</h1>
+        <section class="News Section">
+            <h1 class="News__head section-head">NEWS</h1>
             <div class="News__body">
                 <ul class="Menu">
                     <li><a href="" class="Menu__item"></a></li>
@@ -109,21 +113,8 @@
             </div>
             <div class="News__foot"></div>
         </section>
-        <section class="QA">
-            <h1 class="QA__head">Q&A</h1>
-            <div class="QA__body">
-                <ul class="Menu">
-                    <li><a href="" class="Menu__item"></a></li>
-                    <li><a href="" class="Menu__item"></a></li>
-                    <li><a href="" class="Menu__item"></a></li>
-                    <li><a href="" class="Menu__item"></a></li>
-                    <li><a href="" class="Menu__item"></a></li>
-                </ul>
-            </div>
-            <div class="QA__foot"></div>
-        </section>
-        <section class="Contact">
-            <h1 class="Contact__head">CONTACT</h1>
+        <section class="Contact Section">
+            <h1 class="Contact__head section-head">CONTACT</h1>
             <div class="Contact__body"></div>
             <div class="Contact__foot"></div>
         </section>
@@ -131,7 +122,7 @@
     <footer class="Footer">
         <nav class="Footer__nav-main">
             <ul class="Menu">
-                <li><a href="" class="Menu__item"></a>mrOJECT</li>
+                <li><a href="" class="Menu__item"></a>PROJECT</li>
                 <li><a href="" class="Menu__item"></a>PLAN</li>
                 <li><a href="" class="Menu__item"></a>ABOUT</li>
                 <li><a href="" class="Menu__item"></a>Q & A</li>

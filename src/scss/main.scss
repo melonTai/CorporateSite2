@@ -22,16 +22,27 @@
 @import "./components/parts/bar";
 //scroll_down
 @import "./components/parts/scroll";
-//slider_arrow
-@import "./components/parts/slick_arrow";
-
+//heading
+@import "./components/parts/heading";
+//buttons
+@import "./components/parts/buttons";
+//slick
+@import "./components/parts/slick_custom";
 //-----common-----
+//section
+@import "./components/common/section";
 //header
 @import "./components/common/header";
 //menu
 @import "./components/common/menu";
 //-----others-----
+//carousel
 @import "./components/carousel";
+//top
+@import "./components/top";
+//blog
+@import "./components/blog";
+
 
 //=====pages=====
 

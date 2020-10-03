@@ -10,6 +10,10 @@
     font-family: $font-sub;
     font-weight: "400";
 }
+@mixin section-head-font(){
+    font-family: $font-sub;
+    font-weight: 600;
+}
 @mixin menu-mq-sp($max: $menu-sp-max-width){
     @media only screen and (max-width: #{$max}){//スクリーンかつ最大幅が$maxのときのみ中を読み込む
         @content;//mixinのinclude先でcontentの中身を書くことができる

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+.Blog{
+    //@extend .container-fluid;
+    //@extend .mx-auto;
+    margin-bottom: $space-unit*2;
+    &__head{
+        margin-bottom: $space-unit;
+    }
+    &__body{
+        //@extend .mx-auto;
+        margin: 0px auto;
+    }
+    &__foot{
+        font-size: 20px;
+        font-weight: 200;
+    }
+}
