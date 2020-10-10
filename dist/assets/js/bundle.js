@@ -17,13 +17,12 @@ $(function () {
     }
   });
 });
+/*$(document).ready(function() {
+	$('body *').removeAttr('style');
+    $('body *').removeAttr('width');
+	$('body *').removeAttr('height');
+});*/
 "use strict";
-
-$(document).ready(function () {
-  $('body *').removeAttr('style');
-  $('body *').removeAttr('width');
-  $('body *').removeAttr('height');
-});
 "use strict";
 
 $(document).ready(function () {
@@ -43,7 +42,7 @@ $(document).ready(function () {
     centerPadding: '20%',
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    //autoplay: true,
     autoplaySpeed: 1000,
     nextArrow: '<div class="slick-arrow slick-next"></div>',
     prevArrow: '<div class="slick-arrow slick-prev"></div>',

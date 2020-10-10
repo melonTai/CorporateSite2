@@ -5,13 +5,17 @@
     margin-bottom: $space-unit*2;
     &__head{
         margin-bottom: $space-unit;
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
     }
     &__body{
         //@extend .mx-auto;
         margin: 0px auto;
     }
     &__foot{
-        font-size: 20px;
-        font-weight: 200;
+        margin: 0 20%;
+        padding: 0px 40px;
+        margin-top: $space-unit;
     }
 }

@@ -14,35 +14,70 @@
     font-family: $font-sub;
     font-weight: 600;
 }
-@mixin menu-mq-sp($max: $menu-sp-max-width){
+
+@mixin _sm($max: map-get($container-max-widths,sm)){
     @media only screen and (max-width: #{$max}){//スクリーンかつ最大幅が$maxのときのみ中を読み込む
         @content;//mixinのinclude先でcontentの中身を書くことができる
     }
 }
-@mixin menu-mq-pc($min: $menu-pc-min-width){
-    @media only screen and (min-width: #{$min}){
+@mixin _md($max: map-get($container-max-widths,md)){
+    @media only screen and (max-width: #{$max}){
         @content;
     }
 }
 
-@mixin mq-sp($max: $sp-max-width){
-    @media only screen and (max-width: #{$max}){//スクリーンかつ最大幅が$maxのときのみ中を読み込む
-        @content;//mixinのinclude先でcontentの中身を書くことができる
+@mixin _lg($max: map-get($container-max-widths,lg)){
+    @media only screen and (max-width: #{$max}){
+        @content;
     }
 }
-@mixin mq-pc($min: $pc-min-width){
-    @media only screen and (min-width: #{$min}){
+@mixin _xl($max: map-get($container-max-widths,xl)){
+    @media only screen and (max-width: #{$max}){
         @content;
     }
 }
 
-@mixin _sm($max: $sm-width){
-    @media only screen and (max-width: #{$max}){//スクリーンかつ最大幅が$maxのときのみ中を読み込む
-        @content;//mixinのinclude先でcontentの中身を書くことができる
+//image overlay
+@mixin image_overlay($bg-color: #fff){
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    cursor: pointer;
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+        background: $bg-color;
+        transition: all 0.5s;
+    }
+    &:hover{
+        &:after{
+            opacity: .5;
+        }
     }
 }
-@mixin sm_md($min: $sm-width, $max:$md-width){
-    @media only screen and (min-width: #{$min}) and (max-width: #{$max}){
-        @content;
+@mixin card_overlay($bg-color: #fff){
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+        background: $bg-color;
+        transition: all 0.5s;
+    }
+    &:hover{
+        &:after{
+            opacity: .5;
+        }
     }
 }

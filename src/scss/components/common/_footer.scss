@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.Footer{
+    padding-top: $space-unit;
+    padding-bottom: $space-unit;
+    @extend .container;
+    &__nav-main{
+        margin-right: $column-space;
+    }
+    &__foot{
+        margin-top: $space-unit;
+        text-align: center;
+    }
+}

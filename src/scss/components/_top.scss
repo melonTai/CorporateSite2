@@ -2,7 +2,7 @@
 .Top{
     margin-bottom: $space-unit*2;
     padding-right: 200px;
-    @include mq-sp{
+    @include _lg{
         padding: 0px;
     }
 }

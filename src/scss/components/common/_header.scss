@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     //align-items: center;
-    @include menu-mq-sp {
+    @include _lg {
         align-items: center;
         height: 200px;
         padding-left: 30px;
@@ -27,7 +27,7 @@
         flex-direction: column;
         align-items: flex-end;
         justify-content: space-between;
-        @include menu-mq-sp {
+        @include _lg {
             position: fixed;
             top: -100px;
             left: -300px;
@@ -99,14 +99,12 @@
     }
 
     &__bar {
-        padding-top:10px; 
+        padding-top:10px;
         &.on {
             z-index: 2;
         }
-        @include menu-mq-pc {
-            display: none;
-        }
-        @include menu-mq-sp {
+        display: none;
+        @include _lg {
             display: block;
         }
     }

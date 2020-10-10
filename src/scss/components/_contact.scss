@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.Contact{
+    text-align: center;
+    background: $color-contact;
+    padding: $space-unit;
+    max-width: 100%;
+    &__head{
+        margin-bottom: $space-unit;
+    }
+    &__mail{
+        font-size: 30px;
+        margin-bottom: $space-unit;
+    }
+    &__tel{
+        font-size: 30px;
+
+    }
+}

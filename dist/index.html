@@ -12,30 +12,28 @@
 <body>
     <div id = overlay class="Header__overlay"></div>
     <header class="Header">
-            <div class="Header__logo">
-                <img class="Header__img logo" src="assets/images/sample2_logo2.png" alt="">
-            </div>
-            <div id = "js-header-nav" class="Header__nav">
-                <nav class="Header__nav-sub">
-                    <ul class="Menu">
-                        <li class="Menu__item Menu__item--mr52"><a href="" class="">OFFICE</a></li>
-                        <li class="Menu__item Menu__item--mr52"><a href="" class="">CONTACT</a></li>
-                    </ul>
-                </nav>
-                <nav class="Header__nav-main">
-                    <ul class="Menu">
-                        <li class="Menu__item Menu__item--mr80"><a href="" class="">PROJECT</a></li>
-                        <li class="Menu__item Menu__item--mr80"><a href="" class="">PLAN</a></li>
-                        <li class="Menu__item Menu__item--mr80"><a href="" class="">ABOUT</a></li>
-                        <li class="Menu__item Menu__item--mr80"><a href="" class="">Q&A</a></li>
-                        <li class="Menu__item Menu__item--mr80"><a href="" class="">BLOG</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="header-bar" class="Header__bar">
-              <div class="one"></div>
-              <div class="three"></div>
-            </div>
+        <div class="Header__logo">
+            <a href="index.html"><img class="Header__img logo" src="assets/images/sample2_logo2.png" alt=""></a>
+        </div>
+        <div id="js-header-nav" class="Header__nav">
+            <nav class="Header__nav-sub">
+                <ul class="Menu">
+                    <li class="Menu__item Menu__item--mr52"><a href="page.html" class="">OFFICE</a></li>
+                    <li class="Menu__item Menu__item--mr52"><a href="page.html" class="">CONTACT</a></li>
+                </ul>
+            </nav>
+            <nav class="Header__nav-main">
+                <ul class="Menu">
+                    <li class="Menu__item Menu__item--mr80"><a href="page-planlist.html" class="">PLAN</a></li>
+                    <li class="Menu__item Menu__item--mr80"><a href="page.html" class="">ABOUT</a></li>
+                    <li class="Menu__item Menu__item--mr80"><a href="page.html" class="">Contact</a></li>
+                    <li class="Menu__item Menu__item--mr80"><a href="archive.html" class="">BLOG</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="header-bar" class="Header__bar">
+            <div class="one"></div>
+            <div class="three"></div>
         </div>
     </header>
     <div class="scroll-wrap">
@@ -53,90 +51,215 @@
         </section>
         <section class="Blog">
             <div class="container">
-                <div class="Blog__head row justify-content-between">
+                <div class="Blog__head">
                     <h1 class="section-head">BLOG</h1>
-                    <a class="arrow-right" href="#"></a>
+                    <a class="arrow-right u-fs30px" href="#"></a>
                 </div>
             </div>
             <div class="Blog__body">
-                <ul id="js-slider-Blog" class="Carousel Carousel--blog">
-                    <li class="Carousel__item Carousel__item--blog"><img src="https://placehold.jp/1101x736.png?text=A" alt="A" class="Carousel__img"></li>
-                    <li class="Carousel__item Carousel__item--blog"><img src="https://placehold.jp/1101x736.png?text=B" alt="B" class="Carousel__img"></li>
-                    <li class="Carousel__item Carousel__item--blog"><img src="https://placehold.jp/1101x736.png?text=C" alt="C" class="Carousel__img"></li>
-                    <li class="Carousel__item Carousel__item--blog"><img src="https://placehold.jp/1101x736.png?text=D" alt="D" class="Carousel__img"></li>
-                    <li class="Carousel__item Carousel__item--blog"><img src="https://placehold.jp/1101x736.png?text=E" alt="E" class="Carousel__img"></li>
-                </ul>
+                <div id="js-slider-Blog" class="Carousel Carousel--blog">
+                    <div class="Carousel__item Carousel__item--blog">
+                        <a class="OverlayPanel" href="">
+                            <div class="OverlayPanel__sub">
+                                <img class="OverlayPanel__img" src="https://placehold.jp/1101x736.png?text=A" alt="A">
+                            </div>
+                            <div class="OverlayPanel__main">
+                                <p class="OverlayPanel__item">date</p>
+                                <p class="OverlayPanel__item">category</p>
+                                <p class="OverlayPanel__item">title</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="Carousel__item Carousel__item--blog">
+                        <a class="OverlayPanel" href="">
+                            <div class="OverlayPanel__sub">
+                                <img class="OverlayPanel__img" src="https://placehold.jp/1101x736.png?text=B" alt="B">
+                            </div>
+                            <div class="OverlayPanel__main">
+                                <p class="OverlayPanel__item">date</p>
+                                <p class="OverlayPanel__item">category</p>
+                                <p class="OverlayPanel__item">title</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="Carousel__item Carousel__item--blog">
+                        <a class="OverlayPanel" href="">
+                            <div class="OverlayPanel__sub">
+                                <img class="OverlayPanel__img" src="https://placehold.jp/1101x736.png?text=C" alt="C">
+                            </div>
+                            <div class="OverlayPanel__main">
+                                <p class="OverlayPanel__item">date</p>
+                                <p class="OverlayPanel__item">category</p>
+                                <p class="OverlayPanel__item">title</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="Carousel__item Carousel__item--blog">
+                        <div class="OverlayPanel">
+                            <div class="OverlayPanel__sub">
+                                <img class="OverlayPanel__img" src="https://placehold.jp/1101x736.png?text=D" alt="D">
+                            </div>
+                            <div class="OverlayPanel__main">
+                                <p class="OverlayPanel__item">date</p>
+                                <p class="OverlayPanel__item">category</p>
+                                <p class="OverlayPanel__item">title</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Carousel__item Carousel__item--blog">
+                        <a class="OverlayPanel" href="">
+                            <div class="OverlayPanel__sub">
+                                <img class="OverlayPanel__img" src="https://placehold.jp/1101x736.png?text=E" alt="E">
+                            </div>
+                            <div class="OverlayPanel__main">
+                                <p class="OverlayPanel__item">date</p>
+                                <p class="OverlayPanel__item">category</p>
+                                <p class="OverlayPanel__item">title</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="arrows arrows--center">
+            <div class="Blog__foot arrows arrows--between">
             </div>
         </section>
         <section class="About Section">
             <h1 class="About__head section-head">ABOUT</h1>
             <div class="About__body">
-                <img class="About__img" src="" alt="">
+                <div class="About__tile">
+
+                </div>
+                <div class="About__tile About__tile--sm">
+
+                </div>
+                <div class="row justify-content-between">
+                    <a class="image-overlay d-block col-5" href="">
+                        <img class="w-100" src="https://placehold.jp/736x736.png?text=A" alt="">
+                    </a>
+                    <div class="About__foot col-5">
+                        <a class="About__arrow" href="#"></a>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <a class="image-overlay d-block col-5" href="">
+                        <img class="w-100" src="https://placehold.jp/736x736.png?text=B" alt="">
+                    </a>
+                </div>
             </div>
-        </section>
-        <section class="Project Section">
-            <h1 class="Project__head section-head">PROJECT</h1>
-            <div class="Project__body">
-                <ul class="Tile">
-                    <li><a href="" class="Tile__item"><img src="" alt="a" class="Tile__img"></a></li>
-                    <li><a href="" class="Tile__item"><img src="" alt="a" class="Tile__img"></a></li>
-                    <li><a href="" class="Tile__item"><img src="" alt="a" class="Tile__img"></a></li>
-                    <li><a href="" class="Tile__item"><img src="" alt="a" class="Tile__img"></a></li>
-                </ul>
-            </div>
-            <div class="Project__foot"></div>
         </section>
         <section class="Plan Section">
             <h1 class="Plan__head section-head">PLAN</h1>
             <div class="Plan__body">
                 <ul class="Tile">
-                    <li><a href="" class="Tile__item"><img src="" alt="a" class="Tile__img"></a></li>
-                    <li><a href="" class="Tile__item"><img src="" alt="a" class="Tile__img"></a></li>
-                    <li><a href="" class="Tile__item"><img src="" alt="a" class="Tile__img"></a></li>
-                    <li><a href="" class="Tile__item"><img src="" alt="a" class="Tile__img"></a></li>
+                    <li class="Tile__item">
+                        <div class="OverlayPanel">
+                            <div class="OverlayPanel__sub">
+                                <img class="OverlayPanel__img" src="https://placehold.jp/1101x736.png?text=A" alt="A">
+                            </div>
+                            <div class="OverlayPanel__main">
+                                <p class="OverlayPanel__item">title</p>
+                                <p class="OverlayPanel__item">texttexttext</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="Tile__item">
+                        <a class="OverlayPanel" href="">
+                            <div class="OverlayPanel__sub">
+                                <img class="OverlayPanel__img" src="https://placehold.jp/1101x736.png?text=B" alt="B">
+                            </div>
+                            <div class="OverlayPanel__main">
+                                <p class="OverlayPanel__item">title</p>
+                                <p class="OverlayPanel__item">texttexttext</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="Tile__item">
+                        <a class="OverlayPanel" href="">
+                            <div class="OverlayPanel__sub">
+                                <img class="OverlayPanel__img" src="https://placehold.jp/1101x736.png?text=C" alt="C">
+                            </div>
+                            <div class="OverlayPanel__main">
+                                <p class="OverlayPanel__item">title</p>
+                                <p class="OverlayPanel__item">texttexttext</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="Tile__item">
+                        <a class="OverlayPanel" href="">
+                            <div class="OverlayPanel__sub">
+                                <img class="OverlayPanel__img" src="https://placehold.jp/1101x736.png?text=D" alt="D">
+                            </div>
+                            <div class="OverlayPanel__main">
+                                <p class="OverlayPanel__item">title</p>
+                                <p class="OverlayPanel__item">texttexttext</p>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
-            <div class="Plan__foot"></div>
+            <div class="Plan__foot">
+                <a class="arrow-right" href="#"></a>
+            </div>
         </section>
         <section class="News Section">
             <h1 class="News__head section-head">NEWS</h1>
-            <div class="News__body">
-                <ul class="Menu">
-                    <li><a href="" class="Menu__item"></a></li>
-                    <li><a href="" class="Menu__item"></a></li>
-                    <li><a href="" class="Menu__item"></a></li>
-                    <li><a href="" class="Menu__item"></a></li>
-                    <li><a href="" class="Menu__item"></a></li>
-                </ul>
+            <div class="News__body row">
+                <a class="Panel col-12 col-sm-4 card-overlay" href="">
+                    <div class="Panel__thumb">
+                        <img class="Panel__img" src="https://placehold.jp/1101x736.png?text=A" alt="">
+                    </div>
+                    <p class="Panel__date">2020:10:10</p>
+                    <p class="Panel__category">category</p>
+                    <p class="Panel__title">テキストテキストテキストテキストテキストテキスト</p>
+                </a>
+                <a class="Panel col-12 col-sm-4 card-overlay " href="">
+                    <div class="Panel__thumb">
+                        <img class="Panel__img" src="https://placehold.jp/1101x736.png?text=B" alt="">
+                    </div>
+                    <p class="Panel__date">2020:10:10</p>
+                    <p class="Panel__category">category</p>
+                    <p class="Panel__title">テキストテキストテキストテキストテキストテキスト</p>
+
+
+                </a>
+                <a class="Panel col-12 col-sm-4 card-overlay " href="">
+                    <div class="Panel__thumb">
+                        <img class="Panel__img" src="https://placehold.jp/1101x736.png?text=C" alt="">
+                    </div>
+                    <p class="Panel__date">2020:10:10</p>
+                    <p class="Panel__category">category</p>
+                    <p class="Panel__title">テキストテキストテキストテキストテキストテキスト</p>
+
+
+                </a>
             </div>
             <div class="News__foot"></div>
         </section>
         <section class="Contact Section">
             <h1 class="Contact__head section-head">CONTACT</h1>
-            <div class="Contact__body"></div>
-            <div class="Contact__foot"></div>
+            <p class="Contact__mail">abcde@gmail.com</p>
+            <p class="Contact__tel">080-XXXX-YYYY</p>
         </section>
     </main>
     <footer class="Footer">
-        <nav class="Footer__nav-main">
-            <ul class="Menu">
-                <li><a href="" class="Menu__item"></a>PROJECT</li>
-                <li><a href="" class="Menu__item"></a>PLAN</li>
-                <li><a href="" class="Menu__item"></a>ABOUT</li>
-                <li><a href="" class="Menu__item"></a>Q & A</li>
-                <li><a href="" class="Menu__item"></a>BLOG</li>
-            </ul>
-        </nav>
-        <nav class="Footer__nav-sub">
-            <ul class="Menu">
-                <li><a href="" class="Menu__item"></a>OFFICE</li>
-                <li><a href="" class="Menu__item"></a>CONTACT</li>
-            </ul>
-        </nav>
+        <div class="d-flex">
+            <nav class="Footer__nav-main">
+                <ul class="Menu Menu--vertical">
+                    <li class="Menu__item Menu__item--vertical"><a href="">PLAN</a></li>
+                    <li class="Menu__item Menu__item--vertical"><a href="">ABOUT</a></li>
+                    <li class="Menu__item Menu__item--vertical"><a href="">Q & A</a></li>
+                    <li class="Menu__item Menu__item--vertical"><a href="">BLOG</a></li>
+                </ul>
+            </nav>
+            <nav class="Footer__nav-sub">
+                <ul class="Menu Menu--vertical">
+                    <li class="Menu__item Menu__item--vertical"><a href="" class="Menu__item Menu__item--vertical">OFFICE</a></li>
+                    <li class="Menu__item Menu__item--vertical"><a href="" class="Menu__item Menu__item--vertical">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="Footer__foot">
-
+            <p>Copyright &copy; 2020 melonTai. All Rights Reserved.</p>
         </div>
 
     </footer>

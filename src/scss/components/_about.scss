@@ -1,4 +1,48 @@
 @charset "UTF-8";
 .About{
-    
+    position: relative;
+    &__head{
+        text-align: center;
+        margin-bottom: $space-unit*2;
+    }
+    &__body{
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    &__tile{
+        position: absolute;
+        width: 40%;
+        height: auto;
+        &:after{
+            content: '';
+            display: block;
+            width: 100%;
+            padding-top: 90%;
+            background: $color-about-back;
+        }
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        &--sm{
+            width: 15%;
+            top: 90%;
+            left: 10%;
+            transform: translate(0, 0);
+        }
+
+    }
+    &__foot{
+        position: relative;
+    }
+    &__arrow{
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: 30%;
+        //transform: translate(-50%, 0);
+        @extend .arrow-right;
+        font-size: 30px;
+    }
 }

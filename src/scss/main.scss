@@ -28,6 +28,9 @@
 @import "./components/parts/buttons";
 //slick
 @import "./components/parts/slick_custom";
+//imageOverlay
+@import "./components/parts/overlay-animation";
+
 //-----common-----
 //section
 @import "./components/common/section";
@@ -35,6 +38,11 @@
 @import "./components/common/header";
 //menu
 @import "./components/common/menu";
+//tile
+@import "./components/common/tile";
+//footer
+@import "./components/common/footer";
+
 //-----others-----
 //carousel
 @import "./components/carousel";
@@ -42,8 +50,27 @@
 @import "./components/top";
 //blog
 @import "./components/blog";
-
+//about
+@import "./components/about";
+//plan
+@import "./components/plan";
+//news
+@import "./components/news";
+//panel
+@import "./components/panel";
+//contact
+@import "./components/contact";
+//overlayPanel
+@import "./components/overlayPanel";
 
 //=====pages=====
+//page
+@import "./pages/page";
+//single
+@import "./pages/archive";
 
 //======utils=====
+//padding
+@import "./utils/padding";
+//fontsize
+@import "./utils/fontsize";

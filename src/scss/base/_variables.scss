@@ -5,12 +5,16 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px
 );
+//$grid-gutter-width: 0px;
 
 //color Hex値
 $color-base: #FFFFFF;
 $color-main-text: #000000;
 $color-bar: #000000;
 $color-arrow: #E3E3E3;
+$color-contact: #F4F4F4;
+$color-about-back: #F4F4F4;
+$color-overlay: #fff;
 
 $color-link: #878378;
 $color-white: #fff;
@@ -35,5 +39,5 @@ $menu-sp-max-width:938px;
 $menu-pc-min-width:938px;
 $sp-max-width:938px;
 $pc-min-width:938px;
-$sm-width:450px;
+$sm-width:540px;
 $md-width:938px;

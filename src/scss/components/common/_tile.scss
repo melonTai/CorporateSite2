@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.Tile{
+    @extend .row;
+    margin: 0px;
+    &__item{
+        @extend .col-12;
+        @extend .col-sm-6;
+        padding: 0px;
+        margin-bottom: $space-unit;
+    }
+    &__img{
+        width: 100%;
+    }
+}

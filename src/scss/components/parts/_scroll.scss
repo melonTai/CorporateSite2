@@ -2,7 +2,7 @@
 .scroll-wrap{
     //padding-bottom: 100px;
     padding-left: 100px;
-    @include menu-mq-sp{
+    @include _lg{
         padding-top: 100px;
         padding-bottom: 50px;
     }
